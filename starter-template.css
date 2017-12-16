@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+section { padding-top: 20px; }
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+	padding-top: 8px;
+}
+.navbar-form input { width: 250px !important; }
+
+.nav-tabs>li>a:hover {
+	background: none;
+	border-radius: none;
+	border: none;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}

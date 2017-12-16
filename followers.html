@@ -1,0 +1,10 @@
+<article>
+    <section ng-controller="RepoController">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="x in repo | orderBy: 'created_at':true
+">
+                <h4><a href="{{x.html_url}}">{{x.name}}</a></h4>
+            </li>
+        </ul>        
+    </section>
+</article>
